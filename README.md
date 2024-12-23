@@ -1,14 +1,14 @@
 # Fruits-Recognition
-### This repository contains a project for fruit recognition using the Fruits-360 dataset. The project leverages computer vision techniques, image segmentation, color histogram extraction, and machine learning classifiers to classify fruits into different categories.
+ This repository contains a project for fruit recognition using the Fruits-360 dataset. The project leverages computer vision techniques, image segmentation, color histogram extraction, and machine learning classifiers to classify fruits into different categories.
 
 ## Features
 
-  ####  Data Preprocessing: Data is preprocessed by extracting color histograms from fruit images. This includes segmenting fruit from the background using color thresholds and enhancing the segmented images.
-  ####  Segmentation: The images are segmented to isolate the fruit based on predefined color ranges, using the HSV color space. A mask is created to separate the fruit from the white background.
-  ####  Image Enhancement: The segmented images are enhanced using brightness/contrast adjustment, histogram equalization, denoising, and sharpening.
-  ####  Feature Extraction: Color histograms are extracted for each image using the HSV color space to represent the distribution of color components (Hue, Saturation, Value).
-  ####  Machine Learning Models: Multiple machine learning classifiers, including SVM, KNN, and Random Forest, are applied to classify the fruits based on the extracted color histogram features.
-  ####  Model Evaluation: The models are evaluated on their classification performance using accuracy, precision, recall, F1-score, and confusion matrices.
+   **Data Preprocessing** : Data is preprocessed by extracting color histograms from fruit images. This includes segmenting fruit from the background using color thresholds and enhancing the segmented images.
+   **Segmentation**: The images are segmented to isolate the fruit based on predefined color ranges, using the HSV color space. A mask is created to separate the fruit from the white background.
+   **Image Enhancement**: The segmented images are enhanced using brightness/contrast adjustment, histogram equalization, denoising, and sharpening.
+   **Feature Extraction**: Color histograms are extracted for each image using the HSV color space to represent the distribution of color components (Hue, Saturation, Value).
+   **Machine Learning Models** : Multiple machine learning classifiers, including SVM, KNN, and Random Forest, are applied to classify the fruits based on the extracted color histogram features.
+   **Model Evaluation**: The models are evaluated on their classification performance using accuracy, precision, recall, F1-score, and confusion matrices.
 ## Results
 
 ### The Random Forest model outperforms the SVM and KNN models in terms of accuracy. The final evaluation on the test set provides an accuracy of approximately 95%.
