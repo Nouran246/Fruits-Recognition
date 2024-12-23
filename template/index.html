@@ -36,8 +36,11 @@
             </h1>
             <p class="mb-8 leading-relaxed">AI-powered fruit recognition models analyze images to identify various fruits with remarkable accuracy. Leveraging machine learning, they detect features like color, shape, texture, and size. These systems utilize datasets containing labeled images for training, enabling applications in agriculture, retail, and health. Farmers use them for sorting produce, while retailers automate checkout systems with real-time scanning.</p>
             <div class="flex justify-center">
-              <a href="prediction.html"><button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Let's Check</button></a>
-              
+              <a href="{{ url_for('predict') }}">
+                <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                  Let's Check
+                </button>
+              </a>              
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
