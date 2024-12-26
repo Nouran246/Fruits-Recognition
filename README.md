@@ -56,3 +56,10 @@ After training the machine learning model, we have integrated it into a Flask-ba
     Python: Python was used for all the machine learning model development, image preprocessing, and backend server functionality.
     
     Google Colab: Google Colab was used for training and evaluating the machine learning models. It provided an easy environment for experimenting with different classifiers and optimizing model performance.
+
+## Web APPlication 
+![Screenshot 2024-12-24 193943](https://github.com/user-attachments/assets/f05cfd21-aa9d-4124-8fcf-d11cc14a2b17)
+![Screenshot 2024-12-24 193959](https://github.com/user-attachments/assets/3f303dab-6b6d-4816-9b1a-e4f602bae8fe)
+![Screenshot 2024-12-24 194024](https://github.com/user-attachments/assets/4dd5dd51-e6da-42ad-94b4-3f6acf94f0e0)
+![Screenshot 2024-12-24 194128](https://github.com/user-attachments/assets/b5bec280-102b-4ac9-b711-bec67a351d29)
+
