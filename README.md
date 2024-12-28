@@ -57,7 +57,7 @@ After training the machine learning model, we have integrated it into a Flask-ba
     
     Google Colab: Google Colab was used for training and evaluating the machine learning models. It provided an easy environment for experimenting with different classifiers and optimizing model performance.
 
-## Web APPlication 
+## Web Application
 ![Screenshot 2024-12-24 193943](https://github.com/user-attachments/assets/f05cfd21-aa9d-4124-8fcf-d11cc14a2b17)
 ![Screenshot 2024-12-24 193959](https://github.com/user-attachments/assets/3f303dab-6b6d-4816-9b1a-e4f602bae8fe)
 ![Screenshot 2024-12-24 194024](https://github.com/user-attachments/assets/4dd5dd51-e6da-42ad-94b4-3f6acf94f0e0)
